@@ -2237,6 +2237,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -21235,6 +21236,10 @@ var render = function () {
               },
               [_vm._v("Last")]
             ),
+            _vm._v(" "),
+            _c("span", [_vm._v(" Total Items: ")]),
+            _vm._v(" "),
+            _c("span", [_vm._v(_vm._s(_vm.meta.total))]),
           ])
         : _vm._e(),
     ],

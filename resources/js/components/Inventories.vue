@@ -14,6 +14,7 @@
         <button class="btn btn-primary" :disabled="links.prev === null" @click="getInventories(links.prev)">Previous</button>
         <button class="btn btn-primary" :disabled="links.next === null" @click="getInventories(links.next)">Next</button>
         <button class="btn btn-primary" :disabled="links.last === null" @click="getInventories(links.last)">Last</button>
+        <span> Total Items: </span> <span>{{ meta.total }}</span>
     </div>
 </div>
 </template>
